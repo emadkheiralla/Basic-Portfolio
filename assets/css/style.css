@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  
+
+}
+
+html{
+    margin-top: -2px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#name{
+    text-align: center;
+    float: left;
+    margin-left: 200px;
+    height:75px;
+    width: 280px;
+    background-color: #4aaaa5;
+    padding-bottom: -10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+li{
+    
+    float: right;
+    color: #666666;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+
+
+
+}
+
+ul
+{
+    list-style-type: none;
+    color: #666666;
+    margin-right:305px;
+}
+
+.divider-vertical-second-menu{
+   height: 20px;
+   width: 1px;
+   margin: 10px 5px;
+   overflow: hidden;
+   border-right: 2px solid #4aaaa5;
+}
+
+#full {
+    height:520px;
+    background-image: url("../images/concrete_seamless.png");
+    background-size: all;
+    background-attachment: scroll;
+}
+
+#teal_line{
+    height: 10px;
+    background-color: #4aaaa5;
+}
+
+#right{
+    padding-top: 40px;
+    height: 200px;
+    width: 250px;
+    display: inline;
+    background: #ffffff;
+    position: absolute;
+    bottom: 340px;
+    left: 800px;
+}
+
+#left{
+    height: 420px;
+    width: 500px;
+    display: inline;
+    background: #ffffff;
+    position: absolute;
+    left: 200px;
+    bottom: 120px;
+}
+header {
+    height: 80px;
+    background: #ffffff;
+    color: #ffffff;
+    border-width: 1px;
+    border: solid #cccccc;
+}
+
+
+section {
+    padding: 20px;
+}
+
+footer {
+    height: 60px;
+    background: #666666;
+    color: #333;
+}
+#aboutme{
+    margin-top: 0;
+    padding-top: 0;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#connect{
+    margin-top: 0;
+    padding-top: 0;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+}
+
+#me2{
+    margin-right: 10px;
+    margin-bottom: 2px;
+    float: left;
+    text-align: left;
+}
