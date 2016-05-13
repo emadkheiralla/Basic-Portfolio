@@ -28,6 +28,10 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
+li:hover {
+    background-color: #4aaaa5; 
+}
+
 li{
     color: #666666;
     float: right;
