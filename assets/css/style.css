@@ -8,19 +8,21 @@ html{
     margin-top: -2px;
 }
 body{
+    position: relative;
     margin: 0;
     padding: 0;
 }
 
 #name{
     text-align: center;
+    font-size: 28px;
     float: left;
     margin-left: 200px;
+    padding-top: 20px;
     height:75px;
-    width: 280px;
+    width: 240px;
     background-color: #4aaaa5;
-    padding-bottom: -10px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 li{
@@ -31,9 +33,10 @@ li{
     margin-right: 10px;
     margin-top: 10px;
     display: inline-block;
+}
 
-
-
+a:hover{
+    color:green;
 }
 
 ul
@@ -41,6 +44,7 @@ ul
     list-style-type: none;
     color: #666666;
     margin-right:305px;
+    margin-top:15px;
 }
 
 .divider-vertical-second-menu{
@@ -51,38 +55,100 @@ ul
    border-right: 2px solid #4aaaa5;
 }
 
-#full {
-    height:520px;
-    background-image: url("../images/concrete_seamless.png");
-    background-size: all;
-    background-attachment: scroll;
-}
 
 #teal_line{
     height: 10px;
     background-color: #4aaaa5;
 }
 
-#right{
-    padding-top: 40px;
-    height: 200px;
-    width: 250px;
+#words{
+    line-height: normal;
+}
+
+#indexfull {
+    height:520px;
+    background-image: url("../images/concrete_seamless.png");
+    background-size: all;
+    background-attachment: scroll;
+}
+
+#indexright{
+    padding-top: 20px;
+    height: 180px;
+    width: 260px;
     display: inline;
     background: #ffffff;
     position: absolute;
-    bottom: 340px;
+    bottom: 380px;
     left: 800px;
 }
 
-#left{
-    height: 420px;
+#indexleft{
+    height: 400px;
     width: 500px;
     display: inline;
     background: #ffffff;
     position: absolute;
     left: 200px;
-    bottom: 120px;
+    bottom: 160px;
 }
+
+#contactfull {
+    height:520px;
+    background-image: url("../images/concrete_seamless.png");
+    background-size: all;
+    background-attachment: scroll;
+}
+
+#contactright{
+    padding-top: 20px;
+    height: 180px;
+    width: 260px;
+    display: inline;
+    background: #ffffff;
+    position: absolute;
+    bottom: 380px;
+    left: 800px;
+}
+
+#contactleft{
+    height: 460px;
+    width: 500px;
+    display: inline;
+    background: #ffffff;
+    position: absolute;
+    left: 200px;
+    bottom: 100px;
+}
+
+#portfoliofull {
+    height:700px;
+    background-image: url("../images/concrete_seamless.png");
+    background-size: all;
+    background-attachment: scroll;
+}
+
+#portfolioleft{
+    height: 630px;
+    width: 465px;
+    display: inline;
+    background: #ffffff;
+    position: absolute;
+    left: 200px;
+    bottom: 90px;
+}
+
+#portfolioright{
+    padding-top: 20px;
+    height: 180px;
+    width: 260px;
+    display: inline;
+    background: #ffffff;
+    position: absolute;
+    bottom: 540px;
+    left: 800px;
+}
+
 header {
     height: 80px;
     background: #ffffff;
@@ -101,18 +167,36 @@ footer {
     background: #666666;
     color: #333;
 }
+#contact{
+    margin-top: 0;
+    padding-top: 0;
+    color: #4aaaa5;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+}
+
 #aboutme{
     margin-top: 0;
     padding-top: 0;
     color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#portfolio{
+   margin-top: 0;
+    padding-top: 0;
+    color: #4aaaa5;
+    font-size: 28px;
+   font-family: 'Oswald', sans-serif;
 }
 
 #connect{
     margin-top: 0;
     padding-top: 0;
     color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
 }
 
@@ -121,4 +205,61 @@ footer {
     margin-bottom: 2px;
     float: left;
     text-align: left;
+}
+#pic1{
+    padding-top: 10px;
+    padding-left: -10px;
+    padding-bottom: 40px;
+    float: left;
+}
+
+#pic2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-bottom: 40px;
+    float: right;
+}
+
+#pic3{
+    padding-left: -10px;
+    padding-bottom: 40px;
+    float: left;
+}
+
+#pic4{
+    padding-bottom: 10px;
+    padding-bottom: 40px;
+    float: right;
+}
+
+#pic5{
+    padding-left: -10px;
+    padding-bottom: 40px;
+    float: left;
+}
+
+input, textarea{
+    width:100%;
+    margin-top: 5px;
+    padding: 5px 0 5px 0;
+}
+
+form{
+    color: #777777;
+}
+
+#submit{
+    padding: 10px 0 10px 0;
+    color: white;
+    background-color: #4aaaa5;
+    width:20%;
+    border: none;
+    font-size: 16px;
+}
+
+#copyright{
+    padding-top: 20px;
+    font-size: 10px;
+    text-align: center;
+    color: #F0F0F0;
 }
