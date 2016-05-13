@@ -91,6 +91,7 @@ ul
     bottom: 140px;
 }
 
+
 #contactfull {
     height:550px;
     background-image: url("../images/concrete_seamless.png");
@@ -128,7 +129,7 @@ ul
 
 #portfolioleft{
     height: 630px;
-    width: 465px;
+    width: 480px;
     display: inline;
     background: #ffffff;
     position: absolute;
@@ -204,36 +205,132 @@ footer {
     float: left;
     text-align: left;
 }
-#pic1{
-    padding-top: 10px;
-    padding-left: -10px;
-    padding-bottom: 40px;
+.container1{
+    display: inline;
+    margin: 20px 10px 20px 0;
     float: left;
+    height: 150px;
+    width: 200px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url("../images/pic1.jpg");
 }
 
-#pic2{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-bottom: 40px;
+.container2{
+    display: inline;
+    margin: 20px 10px 20px 0;
     float: right;
+    height: 150px;
+    width: 200px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url("../images/pic2.jpg");
 }
-
-#pic3{
-    padding-left: -10px;
-    padding-bottom: 40px;
+.container3{
+    display: inline;
+    margin: 20px 10px 20px 0;
     float: left;
+    height: 150px;
+    width: 200px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url("../images/pic3.jpg");
 }
 
-#pic4{
-    padding-bottom: 10px;
-    padding-bottom: 40px;
+.container4{
+    display: inline;
+    margin: 20px 10px 20px 0;
     float: right;
+    height: 150px;
+    width: 200px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url("../images/pic4.jpg");
 }
 
-#pic5{
-    padding-left: -10px;
-    padding-bottom: 40px;
+.container5{
+    display: inline;
+    margin: 20px 10px 20px 0;
     float: left;
+    height: 150px;
+    width: 200px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url("../images/pic5.jpg");
+}
+
+.img1green{
+    opacity: 0.9;
+    color: #F0F0F0;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    display: inline;
+    width: 200px;
+    height: 60px;
+    background-color: #4aaaa5;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+.img2green{
+    opacity: 0.9;
+    color: #F0F0F0;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    display: inline;
+    width: 200px;
+    height: 60px;
+    background-color: #4aaaa5;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+.img3green{
+    opacity: 0.9;
+    color: #F0F0F0;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    display: inline;
+    width: 200px;
+    height: 60px;
+    background-color: #4aaaa5;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+.img4green{
+    opacity: 0.9;
+    color: #F0F0F0;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    display: inline;
+    width: 200px;
+    height: 60px;
+    background-color: #4aaaa5;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+.img5green{
+    opacity: 0.9;
+    color: #F0F0F0;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    display: inline;
+    width: 200px;
+    height: 60px;
+    background-color: #4aaaa5;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
 }
 
 input, textarea{
