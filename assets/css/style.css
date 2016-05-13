@@ -2,8 +2,9 @@
   box-sizing: border-box;
 }
 
-a:link {
-    text-decoration: none;
+a{
+    text-decoration: none;    
+    color: #666666;
 }
 
 html{
@@ -30,7 +31,6 @@ body{
 li{
     
     float: right;
-    color: #666666;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
@@ -40,7 +40,6 @@ li{
 ul
 {
     list-style-type: none;
-    color: #666666;
     margin-right:305px;
     margin-top:15px;
 }
