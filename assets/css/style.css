@@ -29,7 +29,7 @@ body{
 }
 
 li{
-    
+    color: #666666;
     float: right;
     margin-left: 10px;
     margin-right: 10px;
@@ -39,6 +39,7 @@ li{
 
 ul
 {
+    color: #666666;
     list-style-type: none;
     margin-right:305px;
     margin-top:15px;
@@ -91,7 +92,7 @@ ul
 }
 
 #contactfull {
-    height:520px;
+    height:550px;
     background-image: url("../images/concrete_seamless.png");
     background-size: all;
     background-attachment: scroll;
@@ -172,7 +173,7 @@ footer {
     font-family: 'Oswald', sans-serif;
 }
 
-#aboutme{
+.aboutme{
     margin-top: 0;
     padding-top: 0;
     color: #4aaaa5;
@@ -180,7 +181,7 @@ footer {
     font-family: 'Oswald', sans-serif;
 }
 
-#portfolio{
+.portfolio{
    margin-top: 0;
     padding-top: 0;
     color: #4aaaa5;
@@ -188,7 +189,7 @@ footer {
    font-family: 'Oswald', sans-serif;
 }
 
-#connect{
+.connect{
     margin-top: 0;
     padding-top: 0;
     color: #4aaaa5;
