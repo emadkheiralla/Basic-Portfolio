@@ -4,17 +4,19 @@
 
 a{
     text-decoration: none;    
-    color: #666666;
+    color: #D7AF00;
 }
 
 html{
     margin-top: -2px;
+    height: 100%;
 }
 body{
     position: relative;
     margin: 0;
     padding: 0;
 }
+
 
 #name{
     text-align: center;
@@ -30,23 +32,6 @@ body{
 
 li:hover {
     background-color: #4aaaa5; 
-}
-
-li{
-    color: #666666;
-    float: right;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    display: inline-block;
-}
-
-ul
-{
-    color: #666666;
-    list-style-type: none;
-    margin-right:305px;
-    margin-top:15px;
 }
 
 .divider-vertical-second-menu{
@@ -68,42 +53,47 @@ ul
 }
 
 #indexfull {
-    height:520px;
+    height:480px;
+    width: 100%;
     background-image: url("../images/concrete_seamless.png");
     background-size: all;
     background-attachment: scroll;
 }
 
 #indexright{
+    box-shadow: 0 4px 8px 0 rgba(74, 170, 165, 1), 0 6px 20px 0 rgba(74, 170, 165, 1);
     padding-top: 20px;
     height: 180px;
     width: 260px;
     display: inline;
     background: #ffffff;
     position: absolute;
-    bottom: 360px;
+    bottom: 330px;
     left: 800px;
 }
 
 #indexleft{
+    box-shadow: 0 4px 8px 0 rgba(74, 170, 165, 1), 0 6px 20px 0 rgba(74, 170, 165, 1);
     height: 400px;
     width: 500px;
     display: inline;
     background: #ffffff;
     position: absolute;
     left: 200px;
-    bottom: 140px;
+    bottom: 110px;
 }
 
 
 #contactfull {
     height:550px;
+    width: 100%;
     background-image: url("../images/concrete_seamless.png");
     background-size: all;
     background-attachment: scroll;
 }
 
 #contactright{
+    box-shadow: 0 4px 8px 0 rgba(74, 170, 165, 1), 0 6px 20px 0 rgba(74, 170, 165, 1);
     padding-top: 20px;
     height: 180px;
     width: 260px;
@@ -115,6 +105,7 @@ ul
 }
 
 #contactleft{
+    box-shadow: 0 4px 8px 0 rgba(74, 170, 165, 1), 0 6px 20px 0 rgba(74, 170, 165, 1);
     height: 460px;
     width: 500px;
     display: inline;
@@ -126,12 +117,14 @@ ul
 
 #portfoliofull {
     height:700px;
+    width: 100%;
     background-image: url("../images/concrete_seamless.png");
     background-size: all;
     background-attachment: scroll;
 }
 
 #portfolioleft{
+    box-shadow: 0 4px 8px 0 rgba(74, 170, 165, 1), 0 6px 20px 0 rgba(74, 170, 165, 1);
     height: 630px;
     width: 480px;
     display: inline;
@@ -142,6 +135,7 @@ ul
 }
 
 #portfolioright{
+    box-shadow: 0 4px 8px 0 rgba(74, 170, 165, 1), 0 6px 20px 0 rgba(74, 170, 165, 1);
     padding-top: 20px;
     height: 180px;
     width: 260px;
@@ -154,12 +148,16 @@ ul
 
 header {
     height: 80px;
+    width: 100%;
     background: #ffffff;
     color: #ffffff;
     border-width: 1px;
-    border: solid #cccccc;
+    border: solid #D7AF00;
+    
 }
-
+hr{
+    border-color: #D7AF00;
+}
 
 section {
     padding: 20px;
@@ -167,6 +165,7 @@ section {
 
 footer {
     height: 60px;
+    width: 100%;
     background: #666666;
     color: #333;
 }
@@ -210,6 +209,7 @@ footer {
     text-align: left;
 }
 .container1{
+    box-shadow: 0 4px 8px 0 rgba(215, 175, 0, 1), 0 6px 20px 0 rgba(215, 175, 0, 1);
     display: inline;
     margin: 20px 10px 20px 0;
     float: left;
@@ -221,6 +221,7 @@ footer {
 }
 
 .container2{
+    box-shadow: 0 4px 8px 0 rgba(215, 175, 0, 1), 0 6px 20px 0 rgba(215, 175, 0, 1);
     display: inline;
     margin: 20px 10px 20px 0;
     float: right;
@@ -231,6 +232,7 @@ footer {
     background-image: url("../images/pic2.jpg");
 }
 .container3{
+    box-shadow: 0 4px 8px 0 rgba(215, 175, 0, 1), 0 6px 20px 0 rgba(215, 175, 0, 1);
     display: inline;
     margin: 20px 10px 20px 0;
     float: left;
@@ -242,6 +244,7 @@ footer {
 }
 
 .container4{
+    box-shadow: 0 4px 8px 0 rgba(215, 175, 0, 1), 0 6px 20px 0 rgba(215, 175, 0, 1);
     display: inline;
     margin: 20px 10px 20px 0;
     float: right;
@@ -253,6 +256,7 @@ footer {
 }
 
 .container5{
+    box-shadow: 0 4px 8px 0 rgba(215, 175, 0, 1), 0 6px 20px 0 rgba(215, 175, 0, 1);
     display: inline;
     margin: 20px 10px 20px 0;
     float: left;
@@ -361,4 +365,21 @@ form{
     font-size: 10px;
     text-align: center;
     color: #F0F0F0;
+}
+
+li{
+    color: #D7AF00;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+ul
+{
+    color: #D7AF00;
+    list-style-type: none;
+    margin-right:305px;
+    margin-top:15px;
 }
